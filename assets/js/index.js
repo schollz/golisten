@@ -17,13 +17,13 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
             playing = false,
-            mediaPath = 'http://localhost:2015/',
+            mediaPath = 'http://localhost:8080',
             extension = '',
             tracks = [{
                 "track": 1,
                 "name": "All This Is - Joe L.'s Studio",
                 "length": "2:46",
-                "file": "music/Waterstrider - Redwood (Official Audio)-GhUqAoYgO6E"
+                "file": "/song/Waterstrider - Redwood (Official Audio)-GhUqAoYgO6E"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
